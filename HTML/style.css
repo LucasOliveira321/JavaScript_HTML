@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-destaque{
+    color: rgba(225, 225, 35, 0.952);
+}
