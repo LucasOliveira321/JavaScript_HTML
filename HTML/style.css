@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Ubuntu+Mono:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +13,45 @@ body{
 }
 
 .apresentacao{
+    margin: 10% 15%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 25px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__links{
+    color: white;
+    border-radius: 16px;
+    font-size: 22px;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: black;
+    width: 280px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
 }
 
 .titulo-destaque{
